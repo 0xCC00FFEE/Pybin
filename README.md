@@ -2,13 +2,13 @@
 <p>Pybin is a Python script that interacts with pastebin.com from command line using pastebin <a href="http://pastebin.com/api">API</a>.<br><br><br></p>
 
 <u><b><h2>Usage</b></h2></u><br>
-<p>./Pybin --help
-usage: pastebin [-h] [-S {paste,list,trends,delete,userdetails,show_paste}]
-                [-f FILE] [-s SYNTAX] [-e {N,10M,1H,1D,1W,2W,1M}] [-p {0,1,2}]
-                [-t TITLE] [-g] [-l LIST_LIMIT] [-d DELETE]
-
-Source code paste tool from command line
-
+<p>./Pybin --help<br>
+usage: pastebin [-h] [-S {paste,list,trends,delete,userdetails,show_paste}]<br>
+		[-f FILE] [-s SYNTAX] [-e {N,10M,1H,1D,1W,2W,1M}] [-p {0,1,2}]<br>
+		[-t TITLE] [-g] [-l LIST_LIMIT] [-d DELETE]<br>
+<br>
+Source code paste tool from command line<br>
+<br>
 optional arguments:
   -h, --help            show this help message and exit
   -S {paste,list,trends,delete,userdetails,show_paste}, --set_option {paste,list,trends,delete,userdetails,show_paste}

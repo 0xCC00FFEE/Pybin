@@ -113,7 +113,7 @@ syntax_list = ['4cs', '6502acme', '6502kickass', '6502tasm', 'abap', 'actionscri
 
 if __name__ == "__main__":
 	ArgumentHandler = argparse.ArgumentParser( description = "Source code paste tool from terminal" )
-	ArgumentHandler.add_argument( "-S", "--set_option", help = "Set an option for your request", choices = ['paste','list','trends','delete','userdetails','show_paste'])
+	ArgumentHandler.add_argument( "-S", "--set_option", help = "Set an option for your request", choices = ['paste','trends','delete'])	#'list','trends','delete','userdetails','show_paste'])
 	ArgumentHandler.add_argument( "-f", "--file", help = "Source code file to share" )
 	ArgumentHandler.add_argument( "-s", "--syntax", help = "Paste's syntax" )
 	ArgumentHandler.add_argument( "-e", "--expire", help = "Paste's expire date", choices = ['N','10M','1H','1D','1W','2W','1M'] )
